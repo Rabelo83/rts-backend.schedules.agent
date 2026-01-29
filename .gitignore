@@ -1,5 +1,4 @@
 ﻿# Large data / generated outputs
-RTSGTFS_*/
 *.sqlite
 /db/*.sqlite
 /db/*.csv
