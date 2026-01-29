@@ -40,5 +40,6 @@ python db/build_gtfs_db.py
 ```
 
 ## Notes
-- GTFS and SQLite outputs are excluded from git via `.gitignore`.
+- GTFS feeds, SQLite DB, and reports are versioned in this repo to preserve state
+  across reboots in a virtual workstation.
 - For transfer‑based routing, see `db/transfer_search.py`.
